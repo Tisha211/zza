@@ -1,0 +1,411 @@
+repo_name: Tisha211/zza
+report_id: 9033826cd7980339284a9ece109f3812
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:25:00+00:00'
+requested_by: Tisha211
+provider: github
+branch: v5
+detected_tools_count: 30
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Tisha211/zza
+  detection_source: Repo Metadata
+- name: Pug
+  description: Robust, elegant, feature rich template engine for nodejs
+  website_url: https://pugjs.org
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1175/pug.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package.json
+  detection_source: package.json
+  last_updated_by: Boris Damevin
+  last_updated_on: 2017-01-20 05:40:46.000000000 Z
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package.json
+  detection_source: package.json
+  last_updated_by: mrholek
+  last_updated_on: 2023-10-30 22:18:04.000000000 Z
+- name: Chart.js
+  description: Simple, clean and engaging charts for designers and developers
+  website_url: http://www.chartjs.org/
+  version: 4.4.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3866/_GD1-XrU_400x400.jpg
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package-lock.json
+  detection_source: package.json
+  last_updated_by: mrholek
+  last_updated_on: 2023-11-14 15:28:31.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package.json
+  detection_source: package.json
+  last_updated_by: Boris Damevin
+  last_updated_on: 2017-01-20 05:40:46.000000000 Z
+- name: Sass
+  description: Syntactically Awesome Style Sheets
+  website_url: http://sass-lang.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package.json
+  detection_source: package.json
+  last_updated_by: Boris Damevin
+  last_updated_on: 2017-01-20 05:40:46.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.23.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package-lock.json
+  detection_source: ".babelrc.js"
+  last_updated_by: Łukasz Holeczek
+  last_updated_on: 2021-05-28 10:31:59.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package.json
+  detection_source: package.json
+  last_updated_by: Boris Damevin
+  last_updated_on: 2017-01-20 05:40:46.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Tisha211/zza
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/.github/workflows/jekyll-docker.yml
+  detection_source: ".github/workflows/jekyll-docker.yml"
+  last_updated_by: Tisha211
+  last_updated_on: 2024-01-09 12:40:54.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package-lock.json
+  detection_source: package.json
+  last_updated_by: mrholek
+  last_updated_on: 2023-11-14 15:28:31.000000000 Z
+- name: Stylelint
+  description: A mighty, modern CSS linter
+  website_url: http://stylelint.io/
+  version: 15.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package-lock.json
+  detection_source: package.json
+  last_updated_by: mrholek
+  last_updated_on: 2023-11-25 17:20:27.000000000 Z
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package-lock.json
+  detection_source: package.json
+  last_updated_by: mrholek
+  last_updated_on: 2023-10-30 23:12:04.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package.json
+  detection_source: package.json
+  last_updated_by: Boris Damevin
+  last_updated_on: 2017-01-20 05:40:46.000000000 Z
+- name: "@babel/cli"
+  description: Babel command line
+  package_url: https://www.npmjs.com/@babel/cli
+  version: 7.23.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15848/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package-lock.json
+  detection_source: package.json
+  last_updated_by: mrholek
+  last_updated_on: 2023-11-25 17:20:27.000000000 Z
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.23.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package-lock.json
+  detection_source: package.json
+  last_updated_by: mrholek
+  last_updated_on: 2023-11-25 17:20:27.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.23.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package-lock.json
+  detection_source: package.json
+  last_updated_by: mrholek
+  last_updated_on: 2023-11-25 17:20:27.000000000 Z
+- name: browser-sync
+  description: Live CSS Reload &amp; Browser Syncing
+  package_url: https://www.npmjs.com/browser-sync
+  version: 2.29.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16034/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package-lock.json
+  detection_source: package.json
+  last_updated_by: mrholek
+  last_updated_on: 2023-11-14 15:28:31.000000000 Z
+- name: clean-css-cli
+  description: A command-line interface to clean-css CSS optimization library
+  package_url: https://www.npmjs.com/clean-css-cli
+  version: 5.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18113/image.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package-lock.json
+  detection_source: package.json
+  last_updated_by: mrholek
+  last_updated_on: 2023-10-30 22:18:04.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package-lock.json
+  detection_source: package.json
+  last_updated_by: mrholek
+  last_updated_on: 2023-11-14 15:28:31.000000000 Z
+- name: eslint-config-xo
+  description: ESLint shareable config for XO
+  package_url: https://www.npmjs.com/eslint-config-xo
+  version: 0.43.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16573/default_682ffbfa52bb1873b212151cffed5d464d6efdfb.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package-lock.json
+  detection_source: package.json
+  last_updated_by: mrholek
+  last_updated_on: 2023-11-25 17:20:27.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.29.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package-lock.json
+  detection_source: package.json
+  last_updated_by: mrholek
+  last_updated_on: 2023-11-25 17:20:27.000000000 Z
+- name: eslint-plugin-unicorn
+  description: Various awesome ESLint rules
+  package_url: https://www.npmjs.com/eslint-plugin-unicorn
+  version: 48.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16871/default_2e3ed47575edcaf407097e6171e3d4cb8681a6b3.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package-lock.json
+  detection_source: package.json
+  last_updated_by: mrholek
+  last_updated_on: 2023-11-25 17:20:27.000000000 Z
+- name: globby
+  description: User-friendly glob matching
+  package_url: https://www.npmjs.com/globby
+  version: 11.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16159/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package-lock.json
+  detection_source: package.json
+  last_updated_by: Łukasz Holeczek
+  last_updated_on: 2022-03-04 23:11:09.000000000 Z
+- name: mkdirp
+  description: Recursively mkdir, like `mkdir -p`
+  package_url: https://www.npmjs.com/mkdirp
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15881/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package-lock.json
+  detection_source: package.json
+  last_updated_by: mrholek
+  last_updated_on: 2023-05-31 15:17:29.000000000 Z
+- name: npm-run-all
+  description: A CLI tool to run multiple npm-scripts in parallel or sequential
+  package_url: https://www.npmjs.com/npm-run-all
+  version: 4.1.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package-lock.json
+  detection_source: package.json
+  last_updated_by: mrholek
+  last_updated_on: 2023-09-23 22:30:07.000000000 Z
+- name: postcss-cli
+  description: CLI for PostCSS
+  package_url: https://www.npmjs.com/postcss-cli
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16326/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package-lock.json
+  detection_source: package.json
+  last_updated_by: mrholek
+  last_updated_on: 2023-10-30 23:12:04.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 3.0.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package-lock.json
+  detection_source: package.json
+  last_updated_by: mrholek
+  last_updated_on: 2023-10-25 17:59:05.000000000 Z
+- name: serve
+  description: Static file serving and directory listing
+  package_url: https://www.npmjs.com/serve
+  version: 14.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16484/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package-lock.json
+  detection_source: package.json
+  last_updated_by: mrholek
+  last_updated_on: 2023-09-22 21:39:14.000000000 Z
+- name: shelljs
+  description: Portable Unix shell commands for Node.js
+  package_url: https://www.npmjs.com/shelljs
+  version: 0.8.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15897/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/Tisha211/zza/blob/v5/package-lock.json
+  detection_source: package.json
+  last_updated_by: mrholek
+  last_updated_on: 2023-09-23 22:43:18.000000000 Z
